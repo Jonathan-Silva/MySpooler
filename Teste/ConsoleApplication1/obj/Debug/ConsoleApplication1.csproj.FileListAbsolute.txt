@@ -1,0 +1,5 @@
+C:\Jonathan\myspooler\Teste\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Jonathan\myspooler\Teste\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Jonathan\myspooler\Teste\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Jonathan\myspooler\Teste\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Jonathan\myspooler\Teste\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

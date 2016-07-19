@@ -1,0 +1,9 @@
+C:\Jonathan\myspooler\MySpooler\bin\Debug\MySpooler.exe.config
+C:\Jonathan\myspooler\MySpooler\obj\Debug\MySpooler.csprojResolveAssemblyReference.cache
+C:\Jonathan\myspooler\MySpooler\obj\Debug\MySpooler.Properties.Resources.resources
+C:\Jonathan\myspooler\MySpooler\obj\Debug\MySpooler.View.frmServer.resources
+C:\Jonathan\myspooler\MySpooler\obj\Debug\MySpooler.csproj.GenerateResource.Cache
+C:\Jonathan\myspooler\MySpooler\bin\Debug\MySpooler.exe
+C:\Jonathan\myspooler\MySpooler\bin\Debug\MySpooler.pdb
+C:\Jonathan\myspooler\MySpooler\obj\Debug\MySpooler.exe
+C:\Jonathan\myspooler\MySpooler\obj\Debug\MySpooler.pdb
