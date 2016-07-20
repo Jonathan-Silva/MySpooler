@@ -17,7 +17,7 @@ namespace MySpooler
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmServer());
+            Application.Run(new frmClient());
         }
     }
 }
