@@ -120,6 +120,21 @@
   <ItemGroup>
     <None Include="Resources\filechecked.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean32.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -17,3 +17,4 @@ C:\Projetos\Solution\myspooler\MySpooler\obj\Debug\MySpooler.Properties.Resource
 C:\Projetos\Solution\myspooler\MySpooler\obj\Debug\MySpooler.View.frmClient.resources
 C:\Projetos\Solution\myspooler\MySpooler\obj\Debug\MySpooler.View.frmServer.resources
 C:\Projetos\Solution\myspooler\MySpooler\obj\Debug\MySpooler.csproj.GenerateResource.Cache
+C:\Jonathan\myspooler\MySpooler\obj\Debug\MySpooler.View.frmClient.resources

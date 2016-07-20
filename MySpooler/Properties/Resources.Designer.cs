@@ -83,6 +83,26 @@ namespace MySpooler.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap clean32 {
+            get {
+                object obj = ResourceManager.GetObject("clean32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete32 {
+            get {
+                object obj = ResourceManager.GetObject("delete32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit32 {
             get {
                 object obj = ResourceManager.GetObject("exit32", resourceCulture);
@@ -126,6 +146,36 @@ namespace MySpooler.Properties {
         internal static System.Drawing.Bitmap imgDrag {
             get {
                 object obj = ResourceManager.GetObject("imgDrag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printer32 {
+            get {
+                object obj = ResourceManager.GetObject("printer32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printer48 {
+            get {
+                object obj = ResourceManager.GetObject("printer48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap refresh32 {
+            get {
+                object obj = ResourceManager.GetObject("refresh32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

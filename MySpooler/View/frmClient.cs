@@ -42,8 +42,16 @@ namespace MySpooler.View
             string[] arquivos = e.Data.GetData(DataFormats.FileDrop) as string[];
             if (arquivos != null && arquivos.Any())
             {
-                txtDirFile.Text = arquivos.First();
-                ChangeIntru(1);
+                if (Verificar(arquivos.First()))
+                {
+                    txtDirFile.Text = arquivos.First();
+                    ChangeIntru(1);
+                }
+                else
+                {
+                    MessageBox.Show("Formato inválido", "Erro ao carregar arquivo",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                
             }
         }
 
@@ -86,7 +94,7 @@ namespace MySpooler.View
 
         private void btEnviar_Click(object sender, EventArgs e)
         {
-            string dirEmvio = @" C:\Users\Jonathan\Desktop";
+            string dirEmvio = @" C:\Users\Suporte-01\Pictures\amostra\";
             string x = "copy " + txtDirFile.Text + dirEmvio;
             ExecutarComandoCMD(x);
             timer1.Start();
@@ -155,6 +163,42 @@ namespace MySpooler.View
             }
         }
 
+        private bool Verificar(string DirFile)
+        {
+            Char[] xc = DirFile.ToCharArray();
+            int x = xc.Count() - 1;
+            string ext = "";
+            for (int i = x; i > 0; i--)
+            {
+                if (xc[i].Equals('.'))
+                {
+                    break;
+                }
+                else
+                {
+                    ext += xc[i].ToString();
+                }
+            }
 
+            Char[] extChar = ext.ToCharArray();
+            x = extChar.Count() - 1;
+            ext = "";
+            for (int i = x; i >= 0; i--)
+            {
+                ext += extChar[i].ToString();
+            }
+
+
+            if (ext.Equals("txt") || ext.Equals("doc") || ext.Equals("xls") || ext.Equals("ppt") || ext.Equals("pdf") || ext.Equals("docx") || ext.Equals("xlsx") || ext.Equals("pptx") || ext.Equals("ods"))
+            {
+                return true;
+            }
+            else if (ext.Equals("png") || ext.Equals("jpg") || ext.Equals("bitmap"))
+            {
+                return true;
+            }
+            return false;
+
+        }
     }
 }
